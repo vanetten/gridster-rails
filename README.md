@@ -14,7 +14,7 @@ This is gridster.js GEMified for the Rails >= 3.1 asset pipeline through the fol
 	curl https://raw.github.com/ducksboard/gridster.js/master/LICENSE >> LICENSE
 	git add .
 	git commit -am "initial gridster-rails"
-	git remote add origin https://github.com/vanetten/gridster-rails.git
+	git remote add origin git@github.com:vanetten/gridster-rails.git
 
 * modify lib/gridster-rails/version.rb to match gridster.js version
 

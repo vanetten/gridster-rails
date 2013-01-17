@@ -17,12 +17,13 @@ This is gridster.js GEMified for the Rails >= 3.1 asset pipeline through the fol
 	git remote add origin https://github.com/vanetten/gridster-rails.git
 
 * modify lib/gridster-rails/version.rb to match gridster.js version
-`VERSION = "0.1.0"`
+
+		VERSION = "0.1.0"
 
 * modify lib/gridster-rails.rb to subclass Rails::Engine
 
-	class Engine < ::Rails::Engine
-	end
+		class Engine < ::Rails::Engine
+		end
 
 * modify gridster-rails.gemspec
 
@@ -33,10 +34,12 @@ This is gridster.js GEMified for the Rails >= 3.1 asset pipeline through the fol
 	gem.add_dependency "railties", "~> 3.1"
 
 * build
-`rake build`
+
+		rake build
 
 * release
-`rake release`
+
+		rake release
 
 ## Installation
 

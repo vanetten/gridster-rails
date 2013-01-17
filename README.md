@@ -1,6 +1,6 @@
 # Gridster::Rails
 
-This is gridster.js GEMified for the Rails >= 3.1 asset pipeline through the following:
+This is [gridster.js](http://gridster.net) GEMified for the Rails >= 3.1 asset pipeline through the following:
 
 	bundle gem gridster-rails
 	cd gridster-rails
@@ -16,16 +16,16 @@ This is gridster.js GEMified for the Rails >= 3.1 asset pipeline through the fol
 	git commit -am "initial gridster-rails"
 	git remote add origin git@github.com:vanetten/gridster-rails.git
 
-* modify lib/gridster-rails/version.rb to match gridster.js version
+* modify **lib/gridster-rails/version.rb** to match gridster.js version
 
 		VERSION = "0.1.0"
 
-* modify lib/gridster-rails.rb to subclass Rails::Engine
+* modify **lib/gridster-rails.rb** to subclass Rails::Engine
 
 		class Engine < ::Rails::Engine
 		end
 
-* modify gridster-rails.gemspec
+* modify **gridster-rails.gemspec**
 
 		gem.description   = "This gem provides jquery.gridster.js and jquery.gridster.css for your Rails 3 application."
 		gem.summary       = "Use gridster with Rails 3"
@@ -58,10 +58,12 @@ Or install it yourself as:
 ## Usage
 
 Add to application.js
-`//= require jquery.gridster.js`
+
+		//= require jquery.gridster.js`
 
 Add to application.css
-`*= require fullcalendar`
+
+		*= require fullcalendar`
 
 ## Contributing
 

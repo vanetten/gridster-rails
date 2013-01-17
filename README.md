@@ -57,13 +57,13 @@ Or install it yourself as:
 
 ## Usage
 
-Add to application.js
+Add to **application.js**
 
-		//= require jquery.gridster.js`
+	//= require jquery.gridster.js`
 
-Add to application.css
+Add to **application.css**
 
-		*= require fullcalendar`
+	*= require fullcalendar`
 
 ## Contributing
 

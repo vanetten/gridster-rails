@@ -27,11 +27,11 @@ This is gridster.js GEMified for the Rails >= 3.1 asset pipeline through the fol
 
 * modify gridster-rails.gemspec
 
-	gem.description   = "This gem provides jquery.gridster.js and jquery.gridster.css for your Rails 3 application."
-	gem.summary       = "Use gridster with Rails 3"
-	gem.homepage      = "http://rubygems.org/gems/gridster-rails"
-	gem.files = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
-	gem.add_dependency "railties", "~> 3.1"
+		gem.description   = "This gem provides jquery.gridster.js and jquery.gridster.css for your Rails 3 application."
+		gem.summary       = "Use gridster with Rails 3"
+		gem.homepage      = "http://rubygems.org/gems/gridster-rails"
+		gem.files = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
+		gem.add_dependency "railties", "~> 3.1"
 
 * build
 

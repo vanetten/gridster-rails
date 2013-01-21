@@ -63,7 +63,7 @@ Add to **application.js**
 
 Add to **application.css**
 
-	*= require jquery.gridster.js
+	*= require jquery.gridster.css
 
 ## Contributing
 

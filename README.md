@@ -18,7 +18,7 @@ This is [gridster.js](http://gridster.net) GEMified for the Rails >= 3.1 asset p
 
 * modify **lib/gridster-rails/version.rb** to match gridster.js version
 
-		VERSION = "0.2.1"
+		VERSION = "0.5.6"
 
 * modify **lib/gridster-rails.rb** to subclass Rails::Engine
 

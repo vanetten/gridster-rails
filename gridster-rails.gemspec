@@ -16,5 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = Gridster::Rails::VERSION
 
   gem.files = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
-  gem.add_dependency "railties", "~> 3.1"
+  gem.add_dependency "railties", '>= 3.1.0', '< 5.0'
 end

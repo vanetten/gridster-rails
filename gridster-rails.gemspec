@@ -14,6 +14,7 @@ Gem::Specification.new do |gem|
   gem.name          = "gridster-rails"
   gem.require_paths = ["lib"]
   gem.version       = Gridster::Rails::VERSION
+  gem.license       = 'MIT'
 
   gem.files = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
   gem.add_dependency "railties", '>= 3.1.0', '< 5.0'

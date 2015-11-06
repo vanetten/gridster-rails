@@ -2,8 +2,8 @@
 require File.expand_path('../lib/gridster-rails/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["William Van Etten"]
-  gem.email         = ["bill@bioteam.net"]
+  gem.authors       = ["William Van Etten", "Henk van der Veen"]
+  gem.email         = ["bill@bioteam.net", "henk.van.der.veen@gmail.com"]
 	gem.description   = "This gem provides jquery.gridster.js and jquery.gridster.css for your Rails 3 application."
 	gem.summary       = "Use gridster with Rails 3"
 	gem.homepage      = "http://rubygems.org/gems/gridster-rails"

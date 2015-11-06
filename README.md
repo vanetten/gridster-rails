@@ -6,8 +6,8 @@ This is [gridster.js](http://gridster.net) GEMified for the Rails >= 3.1 asset p
 	cd gridster-rails
 	mkdir -p vendor/assets/javascripts
 	mkdir -p vendor/assets/stylesheets
-	curl https://raw.github.com/dustmoo/gridster.js/master/dist/jquery.gridster.js -o vendor/assets/javascripts/jquery.gridster.js
-	curl https://raw.github.com/dustmoo/gridster.js/master/dist/jquery.gridster.css -o vendor/assets/stylesheets/jquery.gridster.css
+	curl https://raw.github.com/ducksboard/gridster.js/master/dist/jquery.gridster.js -o vendor/assets/javascripts/jquery.gridster.js
+	curl https://raw.github.com/ducksboard/gridster.js/master/dist/jquery.gridster.css -o vendor/assets/stylesheets/jquery.gridster.css
 	echo "" >> README.md; echo "# gridster.js appended README #" >> README.md; echo "" >> README.md
 	curl https://raw.github.com/dustmoo/gridster.js/master/README.md >> README.md
 	echo "" >> LICENSE; echo "# gridster.js appended LICENSE #" >> LICENSE; echo "" >> LICENSE
@@ -18,7 +18,7 @@ This is [gridster.js](http://gridster.net) GEMified for the Rails >= 3.1 asset p
 
 * modify **lib/gridster-rails/version.rb** to match gridster.js version
 
-		VERSION = "0.1.5"
+		VERSION = "0.2.1"
 
 * modify **lib/gridster-rails.rb** to subclass Rails::Engine
 

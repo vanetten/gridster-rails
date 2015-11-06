@@ -22,11 +22,11 @@ Or install it yourself as:
 
 Add to **application.js**
 
-  //= require jquery.gridster.js
+    //= require jquery.gridster.js
 
 Add to **application.css**
 
-  *= require jquery.gridster.css
+    *= require jquery.gridster.css
 
 Gridster.js
 ===========

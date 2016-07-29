@@ -82,11 +82,11 @@ modify **lib/gridster-rails.rb** to subclass Rails::Engine
 
 modify **gridster-rails.gemspec**
 
-    gem.description   = "This gem provides jquery.gridster.js and jquery.gridster.css for your Rails 3, 4 application."
-    gem.summary       = "Use gridster with Rails 3 and 4"
+    gem.description   = "This gem provides jquery.gridster.js and jquery.gridster.css for your Rails 3+ application."
+    gem.summary       = "Use gridster with Rails 3+"
     gem.homepage      = "http://rubygems.org/gems/gridster-rails"
     gem.files = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
-    gem.add_dependency "railties", '>= 3.1.0', '< 5.0'
+    gem.add_dependency "railties", '>= 3.1.0', '< 6.0'
 
 build
 

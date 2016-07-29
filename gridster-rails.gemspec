@@ -17,5 +17,5 @@ Gem::Specification.new do |gem|
   gem.license       = 'MIT'
 
   gem.files = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
-  gem.add_dependency "railties", '>= 3.1.0'
+  gem.add_dependency "railties", '>= 3.1.0', '< 6.0'
 end
